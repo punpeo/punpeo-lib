@@ -1,0 +1,12 @@
+RabbitConf:
+  Username: guest
+  Password: guest
+  Host: 127.0.0.1
+  Port: 5672
+  ReportAddress: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=e3841c69-769e-4e83-ac7a-8279cb2d5f0b" #消费异常报警机器人地址
+TestQueues:
+  ListenerQueues:
+    - Name: qwzs_queue_direct01 #队列名称
+      AutoAck: false #false开启手动ack模式,true开启自动ack模式
+      PoolSize: 20 #协程池大小 & 消费队列prefetch_count大小
+      Monitor: true #是否开启协程池信息统计
