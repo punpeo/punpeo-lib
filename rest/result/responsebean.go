@@ -1,6 +1,6 @@
 package result
 
-import "punpeo-lib/rest/xerr"
+import "github.com/punpeo/punpeo-lib/rest/xerr"
 
 type ResponseSuccessBean struct {
 	Code uint32      `json:"code"`
