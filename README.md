@@ -39,7 +39,7 @@ gitlab.github.com/punpeo/punpeo-lib v0.0.0-20221010024834-5a4bad007892 => ../go-
 ```
 
 ## 审核流程
-详见：https://jz-tech.yuque.com/jz-tech/adtrtg/trt2l2ox8o3gfhnc
+详见：****
 
 ## 文档
 ```
