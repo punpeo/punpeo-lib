@@ -38,9 +38,6 @@ gitlab.github.com/punpeo/punpeo-lib v0.0.0-20221010024834-5a4bad007892 => ../go-
 )
 ```
 
-## 审核流程
-详见：****
-
 ## 文档
 ```
 go get -v golang.org/x/tools/cmd/godoc
